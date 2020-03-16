@@ -10,7 +10,7 @@ const scissors_div = document.getElementById("scissors");
 
 function getComputerChoice() {
   const choices = ["rock", "paper", "scissors"]
-  console.log(Math.random() = 3);
+  const randomNumber = Math.floor(Math.random() * 3);
 }
 
 getComputerChoice();
